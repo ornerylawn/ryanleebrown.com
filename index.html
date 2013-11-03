@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Ryan L. Brown</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300" />
+    <style>
+      html {
+        height: 100%;
+      }
+      body {
+        height: 100%;
+        position: relative;
+      }
+      .bg {
+        height: 100%;
+        background: url('startup.jpg') no-repeat;
+        background-position: top center;
+        background-size: cover;
+        opacity: 0.3;
+        position: relative;
+      }
+      body:after {
+        -moz-box-shadow: inset 0 0 10em #666;  
+        -webkit-box-shadow: inset 0 0 10em #666;   
+        box-shadow: inset 0 0 10em #666;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+        content: "";
+      }
+      h1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-family: 'Lato', sans-serif;
+        font-weight: 300;
+        font-size: 48px;
+        height: 100px;
+        width: 700px;
+        margin: -50px 0 0 -350px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bg"></div>
+    <h1>busy starting something new...</h1>
+  </body>
+</html>
